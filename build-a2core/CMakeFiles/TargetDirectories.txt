@@ -1,0 +1,3 @@
+C:/Users/luffy/Downloads/thermal_daemon/build-a2core/CMakeFiles/thermal_daemon.dir
+C:/Users/luffy/Downloads/thermal_daemon/build-a2core/CMakeFiles/edit_cache.dir
+C:/Users/luffy/Downloads/thermal_daemon/build-a2core/CMakeFiles/rebuild_cache.dir

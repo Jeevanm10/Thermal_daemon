@@ -5,23 +5,34 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-add_library(thermal_monitor STATIC
-    src/ThermalMonitor.cpp
-)
-target_include_directories(thermal_monitor PUBLIC
-    "${CMAKE_CURRENT_SOURCE_DIR}/include"
-)
+option(BUILD_FOR_SAMSUNG_A2_CORE
+    "Build for the Samsung Galaxy A2 Core (32-bit ARM/armeabi-v7a)"
+    OFF)
 
-# 1. Target WITHOUT Inference (Pure Monitoring & Logging)
-add_executable(thermal_monitor_only
-    src/main.cpp
-)
-target_link_libraries(thermal_monitor_only PRIVATE thermal_monitor)
+if(ANDROID)
+    set(ANDROID_STL "c++_shared" CACHE STRING "Android C++ runtime")
+    if(NOT ANDROID_PLATFORM)
+        set(ANDROID_PLATFORM "android-24" CACHE STRING "Minimum Android API")
+    endif()
+endif()
 
-# 2. Target WITH Inference (Full MobileNet Scheduler)
 set(ONNXRUNTIME_ROOT "${CMAKE_SOURCE_DIR}/third_party/onnx")
-set(ANDROID_ABI_VALUE "${ANDROID_ABI}")
-if(NOT ANDROID_ABI_VALUE)
+set(ANDROID_ABI_VALUE "")
+
+if(ANDROID)
+    if(BUILD_FOR_SAMSUNG_A2_CORE)
+        set(ANDROID_ABI_VALUE "armeabi-v7a")
+        if(ANDROID_ABI AND NOT ANDROID_ABI STREQUAL "armeabi-v7a")
+            message(FATAL_ERROR
+                "Samsung A2 Core build requires ANDROID_ABI=armeabi-v7a "
+                "(requested '${ANDROID_ABI}')")
+        endif()
+    elseif(ANDROID_ABI)
+        set(ANDROID_ABI_VALUE "${ANDROID_ABI}")
+    else()
+        set(ANDROID_ABI_VALUE "armeabi-v7a")
+    endif()
+else()
     set(ANDROID_ABI_VALUE "arm64-v8a")
 endif()
 
@@ -31,12 +42,13 @@ set(ONNXRUNTIME_LIBRARY
 if(ANDROID AND EXISTS "${ONNXRUNTIME_LIBRARY}")
     add_executable(thermal_daemon
         src/main.cpp
+        src/ThermalMonitor.cpp
         src/InferenceScheduler.cpp
     )
 
-    target_compile_definitions(thermal_daemon PRIVATE THERMAL_INFERENCE_ENABLED)
-    target_link_libraries(thermal_daemon PRIVATE thermal_monitor)
+    target_link_libraries(thermal_daemon PRIVATE log dl)
     target_include_directories(thermal_daemon PRIVATE
+        "${CMAKE_CURRENT_SOURCE_DIR}/include"
         "${ONNXRUNTIME_ROOT}/include"
     )
 

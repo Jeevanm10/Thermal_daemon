@@ -1,9 +1,6 @@
 #include "Config.hpp"
 #include "ThermalMonitor.hpp"
-
-#ifdef THERMAL_INFERENCE_ENABLED
 #include "InferenceScheduler.hpp"
-#endif
 
 #include <chrono>
 #include <csignal>
@@ -26,10 +23,8 @@ int main() {
 
     try {
         ThermalMonitor monitor(ThermalConfig::THERMAL_ZONE_PATH);
-#ifdef THERMAL_INFERENCE_ENABLED
         InferenceScheduler scheduler(
             "/data/local/tmp/mobilenetv2.onnx");
-#endif
         auto lastLoopTime = std::chrono::steady_clock::now();
 
         while (g_running) {
@@ -42,7 +37,6 @@ int main() {
             const float dT_dt =
                 monitor.computeRateOfChange(currentTemp, elapsed.count());
 
-#ifdef THERMAL_INFERENCE_ENABLED
             if (currentTemp >= ThermalConfig::TEMP_CRITICAL_THRESHOLD_C ||
                 (dT_dt >= ThermalConfig::DT_DT_SPIKE_THRESHOLD &&
                  currentTemp >= ThermalConfig::TEMP_WARNING_THRESHOLD_C)) {
@@ -54,11 +48,6 @@ int main() {
             }
 
             scheduler.runInferenceLoopStep();
-#else
-            std::cout << "[Monitor] Temperature: " << currentTemp
-                      << " C, dT/dt: " << dT_dt << " C/s\n";
-#endif
-
             std::this_thread::sleep_for(
                 std::chrono::milliseconds(
                     ThermalConfig::SAMPLING_INTERVAL_MS));

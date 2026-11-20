@@ -29,9 +29,6 @@ InferenceScheduler::InferenceScheduler(const std::string& modelPath)
         }
     }
 
-    // Initialize dummy input tensor (MobileNet standard input size: 1x3x224x224)
-    size_t inputTensorSize = 1 * 3 * 224 * 224;
-    inputTensorValues_.assign(inputTensorSize, 0.5f);
 }
 
 bool InferenceScheduler::initializeSession(ExecutionBackend backend) {
@@ -59,8 +56,28 @@ bool InferenceScheduler::initializeSession(ExecutionBackend backend) {
 
     inputName_ = inputNames.front();
     outputName_ = outputNames.front();
+    const auto inputTypeInfo = session->GetInputTypeInfo(0);
+    const auto tensorInfo = inputTypeInfo.GetTensorTypeAndShapeInfo();
+    const auto inputElementType = tensorInfo.GetElementType();
+    if (inputElementType != ONNX_TENSOR_ELEMENT_DATA_TYPE_FLOAT &&
+        inputElementType != ONNX_TENSOR_ELEMENT_DATA_TYPE_FLOAT16) {
+        throw std::runtime_error(
+            "model input must be float32 or float16");
+    }
+
+    const size_t inputTensorSize = 1 * 3 * 224 * 224;
+    if (inputElementType == ONNX_TENSOR_ELEMENT_DATA_TYPE_FLOAT16) {
+        inputTensorFp16Values_.assign(
+            inputTensorSize, Ort::Float16_t(0.5f));
+        inputTensorValues_.clear();
+    } else {
+        inputTensorValues_.assign(inputTensorSize, 0.5f);
+        inputTensorFp16Values_.clear();
+    }
+
     sessionOptions_ = std::move(options);
     session_ = std::move(session);
+    inputElementType_ = inputElementType;
     currentBackend_ = backend;
     if (backend == ExecutionBackend::GPU_OR_NNAPI) {
         std::cout << "[Scheduler] NNAPI enabled with FP16 relaxation; Android selects available accelerator devices.\n";
@@ -102,10 +119,18 @@ double InferenceScheduler::runInferenceLoopStep(bool enableInference) {
     auto start = std::chrono::high_resolution_clock::now();
 
     try {
-        Ort::Value inputTensor = Ort::Value::CreateTensor<float>(
-            memoryInfo_, inputTensorValues_.data(), inputTensorValues_.size(),
-            inputDims_.data(), inputDims_.size()
-        );
+        Ort::Value inputTensor{nullptr};
+        if (inputElementType_ == ONNX_TENSOR_ELEMENT_DATA_TYPE_FLOAT16) {
+            inputTensor = Ort::Value::CreateTensor<Ort::Float16_t>(
+                memoryInfo_, inputTensorFp16Values_.data(),
+                inputTensorFp16Values_.size(), inputDims_.data(),
+                inputDims_.size());
+        } else {
+            inputTensor = Ort::Value::CreateTensor<float>(
+                memoryInfo_, inputTensorValues_.data(),
+                inputTensorValues_.size(), inputDims_.data(),
+                inputDims_.size());
+        }
 
         const char* inputNames[] = {inputName_.c_str()};
         const char* outputNames[] = {outputName_.c_str()};

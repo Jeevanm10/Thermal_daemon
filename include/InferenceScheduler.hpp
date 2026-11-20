@@ -26,9 +26,12 @@ private:
     std::string inputName_;
     std::string outputName_;
     bool nnapiUnavailable_ = false;
+    ONNXTensorElementDataType inputElementType_ =
+        ONNX_TENSOR_ELEMENT_DATA_TYPE_UNDEFINED;
 
-    // Pre-allocated tensor buffers for MobileNet [1, 3, 224, 224]
+    // Pre-allocated buffers for the model input [1, 3, 224, 224].
     std::vector<float> inputTensorValues_;
+    std::vector<Ort::Float16_t> inputTensorFp16Values_;
     std::vector<int64_t> inputDims_;
     Ort::MemoryInfo memoryInfo_;
 };
