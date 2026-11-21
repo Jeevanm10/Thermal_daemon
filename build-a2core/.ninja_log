@@ -1,5 +1,7 @@
 # ninja log v7
-55	1895	8168909284167772	CMakeFiles/thermal_daemon.dir/src/ThermalMonitor.cpp.o	64942b20a01ea336
-38	2203	8168909283980559	CMakeFiles/thermal_daemon.dir/src/main.cpp.o	1c020e4a306d281e
-77	2573	8168909284361304	CMakeFiles/thermal_daemon.dir/src/InferenceScheduler.cpp.o	de0e8afe3e7963c1
-2576	2793	8168909309364246	thermal_daemon	99b356a9830ceb08
+116	18074	8169798509307025	CMakeFiles/thermal_daemon.dir/src/ThermalMonitor.cpp.o	64942b20a01ea336
+149	20016	8169798509624485	CMakeFiles/thermal_daemon.dir/src/InferenceScheduler.cpp.o	de0e8afe3e7963c1
+87	21749	8169798508998889	CMakeFiles/thermal_daemon.dir/src/main.cpp.o	1c020e4a306d281e
+21750	22548	8169798725622750	thermal_daemon	99b356a9830ceb08
+160	6059	8169810580122042	CMakeFiles/thermal_daemon.dir/src/InferenceScheduler.cpp.o	de0e8afe3e7963c1
+6063	6546	8169810639159076	thermal_daemon	99b356a9830ceb08

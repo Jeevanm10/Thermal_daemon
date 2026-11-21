@@ -50,6 +50,8 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/ninja/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Users/luffy/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/luffy/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/usr/lib/arm-linux-androideabi/24/bin/"
       - "/usr/lib/arm-linux-androideabi/24/sbin/"
       - "/usr/lib/arm-linux-androideabi/24/"
@@ -250,6 +252,9 @@ events:
         - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
         - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
         - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "c:\\Users\\luffy\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\luffy\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/lib/arm-linux-androideabi/24"
       CMAKE_SYSROOT: "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
@@ -308,6 +313,9 @@ events:
         - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
         - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
         - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "c:\\Users\\luffy\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\luffy\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/lib/arm-linux-androideabi/24"
       CMAKE_SYSROOT: "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
@@ -373,6 +381,8 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/ninja/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Users/luffy/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/luffy/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/usr/lib/arm-linux-androideabi/24/bin/"
       - "/usr/lib/arm-linux-androideabi/24/sbin/"
       - "/usr/lib/arm-linux-androideabi/24/"
@@ -408,6 +418,9 @@ events:
         - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
         - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
         - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "c:\\Users\\luffy\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\luffy\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/lib/arm-linux-androideabi/24"
       CMAKE_SYSROOT: "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
@@ -451,6 +464,8 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/ninja/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Users/luffy/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/luffy/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/usr/lib/arm-linux-androideabi/24/bin/"
       - "/usr/lib/arm-linux-androideabi/24/sbin/"
       - "/usr/lib/arm-linux-androideabi/24/"
@@ -486,6 +501,9 @@ events:
         - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
         - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
         - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "c:\\Users\\luffy\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\luffy\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/lib/arm-linux-androideabi/24"
       CMAKE_SYSROOT: "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
@@ -529,6 +547,8 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/ninja/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Users/luffy/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/luffy/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/usr/lib/arm-linux-androideabi/24/bin/"
       - "/usr/lib/arm-linux-androideabi/24/sbin/"
       - "/usr/lib/arm-linux-androideabi/24/"
@@ -564,6 +584,9 @@ events:
         - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
         - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
         - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "c:\\Users\\luffy\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\luffy\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/lib/arm-linux-androideabi/24"
       CMAKE_SYSROOT: "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
@@ -607,6 +630,8 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/ninja/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Users/luffy/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/luffy/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/usr/lib/arm-linux-androideabi/24/bin/"
       - "/usr/lib/arm-linux-androideabi/24/sbin/"
       - "/usr/lib/arm-linux-androideabi/24/"
@@ -642,6 +667,9 @@ events:
         - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
         - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
         - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "c:\\Users\\luffy\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\luffy\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/lib/arm-linux-androideabi/24"
       CMAKE_SYSROOT: "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
@@ -685,6 +713,8 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/ninja/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Users/luffy/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/luffy/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/usr/lib/arm-linux-androideabi/24/bin/"
       - "/usr/lib/arm-linux-androideabi/24/sbin/"
       - "/usr/lib/arm-linux-androideabi/24/"
@@ -720,6 +750,9 @@ events:
         - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
         - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
         - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "c:\\Users\\luffy\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\luffy\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/lib/arm-linux-androideabi/24"
       CMAKE_SYSROOT: "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
@@ -763,6 +796,8 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/ninja/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Users/luffy/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/luffy/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/usr/lib/arm-linux-androideabi/24/bin/"
       - "/usr/lib/arm-linux-androideabi/24/sbin/"
       - "/usr/lib/arm-linux-androideabi/24/"
@@ -798,6 +833,9 @@ events:
         - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
         - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
         - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "c:\\Users\\luffy\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\luffy\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/lib/arm-linux-androideabi/24"
       CMAKE_SYSROOT: "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
@@ -841,6 +879,8 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/ninja/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Users/luffy/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/luffy/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/usr/lib/arm-linux-androideabi/24/bin/"
       - "/usr/lib/arm-linux-androideabi/24/sbin/"
       - "/usr/lib/arm-linux-androideabi/24/"
@@ -876,6 +916,9 @@ events:
         - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
         - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
         - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "c:\\Users\\luffy\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\luffy\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/lib/arm-linux-androideabi/24"
       CMAKE_SYSROOT: "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
@@ -918,6 +961,8 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/ninja/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Users/luffy/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/luffy/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/usr/lib/arm-linux-androideabi/24/bin/"
       - "/usr/lib/arm-linux-androideabi/24/sbin/"
       - "/usr/lib/arm-linux-androideabi/24/"
@@ -976,6 +1021,12 @@ events:
       - "C:/Program Files/Git/cmd/tapi.com"
       - "C:/Program Files/Git/cmd/tapi.exe"
       - "C:/Program Files/Git/cmd/tapi"
+      - "C:/Users/luffy/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/tapi.com"
+      - "C:/Users/luffy/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/tapi.exe"
+      - "C:/Users/luffy/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/tapi"
+      - "C:/Users/luffy/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi.com"
+      - "C:/Users/luffy/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi.exe"
+      - "C:/Users/luffy/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
       - "/usr/lib/arm-linux-androideabi/24/bin/tapi.com"
       - "/usr/lib/arm-linux-androideabi/24/bin/tapi.exe"
       - "/usr/lib/arm-linux-androideabi/24/bin/tapi"
@@ -1015,6 +1066,9 @@ events:
         - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
         - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
         - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "c:\\Users\\luffy\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\luffy\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/lib/arm-linux-androideabi/24"
       CMAKE_SYSROOT: "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
@@ -1060,6 +1114,8 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/ninja/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Users/luffy/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/luffy/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/usr/lib/arm-linux-androideabi/24/bin/"
       - "/usr/lib/arm-linux-androideabi/24/sbin/"
       - "/usr/lib/arm-linux-androideabi/24/"
@@ -1104,6 +1160,9 @@ events:
         - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
         - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
         - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "c:\\Users\\luffy\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\luffy\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/lib/arm-linux-androideabi/24"
       CMAKE_SYSROOT: "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
@@ -1149,6 +1208,8 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/ninja/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Users/luffy/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/luffy/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/usr/lib/arm-linux-androideabi/24/bin/"
       - "/usr/lib/arm-linux-androideabi/24/sbin/"
       - "/usr/lib/arm-linux-androideabi/24/"
@@ -1193,6 +1254,9 @@ events:
         - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
         - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
         - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "c:\\Users\\luffy\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\luffy\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/lib/arm-linux-androideabi/24"
       CMAKE_SYSROOT: "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
@@ -1242,6 +1306,8 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/ninja/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Users/luffy/.vscode/extensions/ms-python.debugpy-2026.6.0-win32-x64/bundled/scripts/noConfigScripts/"
+      - "C:/Users/luffy/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/usr/lib/arm-linux-androideabi/24/bin/"
       - "/usr/lib/arm-linux-androideabi/24/sbin/"
       - "/usr/lib/arm-linux-androideabi/24/"
@@ -1286,6 +1352,9 @@ events:
         - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
         - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
         - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "c:\\Users\\luffy\\.vscode\\extensions\\ms-python.debugpy-2026.6.0-win32-x64\\bundled\\scripts\\noConfigScripts"
+        - "c:\\Users\\luffy\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "/usr/lib/arm-linux-androideabi/24"
       CMAKE_SYSROOT: "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
@@ -1299,8 +1368,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/luffy/Downloads/thermal_daemon/build-a2core/CMakeFiles/CMakeScratch/TryCompile-vn6bd6"
-      binary: "C:/Users/luffy/Downloads/thermal_daemon/build-a2core/CMakeFiles/CMakeScratch/TryCompile-vn6bd6"
+      source: "C:/Users/luffy/Downloads/thermal_daemon/build-a2core/CMakeFiles/CMakeScratch/TryCompile-zg2f7y"
+      binary: "C:/Users/luffy/Downloads/thermal_daemon/build-a2core/CMakeFiles/CMakeScratch/TryCompile-zg2f7y"
     cmakeVariables:
       ANDROID_ABI: "armeabi-v7a"
       ANDROID_ARM_MODE: "thumb"
@@ -1323,16 +1392,16 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: 'C:/Users/luffy/Downloads/thermal_daemon/build-a2core/CMakeFiles/CMakeScratch/TryCompile-vn6bd6'
+        Change Dir: 'C:/Users/luffy/Downloads/thermal_daemon/build-a2core/CMakeFiles/CMakeScratch/TryCompile-zg2f7y'
         
-        Run Build Command(s): C:/ninja/ninja.exe -v cmTC_7bf0f
-        [1/2] C:\\android-ndk-r30\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi24 --sysroot=C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat    -fPIE   -v -MD -MT CMakeFiles/cmTC_7bf0f.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles\\cmTC_7bf0f.dir\\CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_7bf0f.dir/CMakeCXXCompilerABI.cpp.o -c "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): C:/ninja/ninja.exe -v cmTC_f3284
+        [1/2] C:\\android-ndk-r30\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi24 --sysroot=C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat    -fPIE   -v -MD -MT CMakeFiles/cmTC_f3284.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles\\cmTC_f3284.dir\\CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_f3284.dir/CMakeCXXCompilerABI.cpp.o -c "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerABI.cpp"
         Android (16134705, based on r574158c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 9f872551d3c681d06fd303b36f16ed5c274735eb)
         Target: armv7-none-linux-android24
         Thread model: posix
         InstalledDir: C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/bin
          (in-process)
-         "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe" -cc1 -triple thumbv7-none-linux-android24 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float-abi -target-feature +read-tp-tpidruro -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/luffy/Downloads/thermal_daemon/build-a2core/CMakeFiles/CMakeScratch/TryCompile-vn6bd6 -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=C:/Users/luffy/Downloads/thermal_daemon/build-a2core/CMakeFiles/CMakeScratch/TryCompile-vn6bd6 -resource-dir C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21 -dependency-file "CMakeFiles\\\\cmTC_7bf0f.dir\\\\CMakeCXXCompilerABI.cpp.o.d" -MT CMakeFiles/cmTC_7bf0f.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1 -internal-isystem C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/include -internal-isystem C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -ferror-limit 19 -femulated-tls -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_7bf0f.dir/CMakeCXXCompilerABI.cpp.o -x c++ "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerABI.cpp"
+         "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe" -cc1 -triple thumbv7-none-linux-android24 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float-abi -target-feature +read-tp-tpidruro -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/luffy/Downloads/thermal_daemon/build-a2core/CMakeFiles/CMakeScratch/TryCompile-zg2f7y -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=C:/Users/luffy/Downloads/thermal_daemon/build-a2core/CMakeFiles/CMakeScratch/TryCompile-zg2f7y -resource-dir C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21 -dependency-file "CMakeFiles\\\\cmTC_f3284.dir\\\\CMakeCXXCompilerABI.cpp.o.d" -MT CMakeFiles/cmTC_f3284.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1 -internal-isystem C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/include -internal-isystem C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -ferror-limit 19 -femulated-tls -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f3284.dir/CMakeCXXCompilerABI.cpp.o -x c++ "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerABI.cpp"
         clang -cc1 version 21.0.0 based upon LLVM 21.0.0 default target x86_64-w64-windows-gnu
         ignoring nonexistent directory "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include"
         ignoring nonexistent directory "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"
@@ -1343,12 +1412,12 @@ events:
          C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi
          C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include
         End of search list.
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\android-ndk-r30\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi24 --sysroot=C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_7bf0f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7bf0f   && cd ."
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\android-ndk-r30\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi24 --sysroot=C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_f3284.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f3284   && cd ."
         Android (16134705, based on r574158c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 9f872551d3c681d06fd303b36f16ed5c274735eb)
         Target: armv7-none-linux-android24
         Thread model: posix
         InstalledDir: C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/bin
-         "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" --sysroot=C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot -EL -z now -z relro -z max-page-size=4096 --no-rosegment -X --hash-style=gnu --eh-frame-hdr -m armelf_linux_eabi -pie -dynamic-linker /system/bin/linker -o cmTC_7bf0f C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtbegin_dynamic.o -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/arm -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24 -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_7bf0f.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtend_android.o
+         "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" --sysroot=C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot -EL -z now -z relro -z max-page-size=4096 --no-rosegment -X --hash-style=gnu --eh-frame-hdr -m armelf_linux_eabi -pie -dynamic-linker /system/bin/linker -o cmTC_f3284 C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtbegin_dynamic.o -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/arm -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24 -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_f3284.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtend_android.o
         
       exitCode: 0
   -
@@ -1383,16 +1452,16 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)(\\.exe)?"?( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/luffy/Downloads/thermal_daemon/build-a2core/CMakeFiles/CMakeScratch/TryCompile-vn6bd6']
+        ignore line: [Change Dir: 'C:/Users/luffy/Downloads/thermal_daemon/build-a2core/CMakeFiles/CMakeScratch/TryCompile-zg2f7y']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/ninja/ninja.exe -v cmTC_7bf0f]
-        ignore line: [[1/2] C:\\android-ndk-r30\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi24 --sysroot=C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat    -fPIE   -v -MD -MT CMakeFiles/cmTC_7bf0f.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles\\cmTC_7bf0f.dir\\CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_7bf0f.dir/CMakeCXXCompilerABI.cpp.o -c "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): C:/ninja/ninja.exe -v cmTC_f3284]
+        ignore line: [[1/2] C:\\android-ndk-r30\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi24 --sysroot=C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat    -fPIE   -v -MD -MT CMakeFiles/cmTC_f3284.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles\\cmTC_f3284.dir\\CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_f3284.dir/CMakeCXXCompilerABI.cpp.o -c "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerABI.cpp"]
         ignore line: [Android (16134705  based on r574158c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 9f872551d3c681d06fd303b36f16ed5c274735eb)]
         ignore line: [Target: armv7-none-linux-android24]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/bin]
         ignore line: [ (in-process)]
-        ignore line: [ "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe" -cc1 -triple thumbv7-none-linux-android24 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float-abi -target-feature +read-tp-tpidruro -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/luffy/Downloads/thermal_daemon/build-a2core/CMakeFiles/CMakeScratch/TryCompile-vn6bd6 -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=C:/Users/luffy/Downloads/thermal_daemon/build-a2core/CMakeFiles/CMakeScratch/TryCompile-vn6bd6 -resource-dir C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21 -dependency-file "CMakeFiles\\\\cmTC_7bf0f.dir\\\\CMakeCXXCompilerABI.cpp.o.d" -MT CMakeFiles/cmTC_7bf0f.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1 -internal-isystem C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/include -internal-isystem C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -ferror-limit 19 -femulated-tls -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_7bf0f.dir/CMakeCXXCompilerABI.cpp.o -x c++ "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [ "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe" -cc1 -triple thumbv7-none-linux-android24 -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float-abi -target-feature +read-tp-tpidruro -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=C:/Users/luffy/Downloads/thermal_daemon/build-a2core/CMakeFiles/CMakeScratch/TryCompile-zg2f7y -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=C:/Users/luffy/Downloads/thermal_daemon/build-a2core/CMakeFiles/CMakeScratch/TryCompile-zg2f7y -resource-dir C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21 -dependency-file "CMakeFiles\\\\cmTC_f3284.dir\\\\CMakeCXXCompilerABI.cpp.o.d" -MT CMakeFiles/cmTC_f3284.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1 -internal-isystem C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/include -internal-isystem C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-externc-isystem C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -ferror-limit 19 -femulated-tls -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_f3284.dir/CMakeCXXCompilerABI.cpp.o -x c++ "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerABI.cpp"]
         ignore line: [clang -cc1 version 21.0.0 based upon LLVM 21.0.0 default target x86_64-w64-windows-gnu]
         ignore line: [ignoring nonexistent directory "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include"]
         ignore line: [ignoring nonexistent directory "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"]
@@ -1403,14 +1472,14 @@ events:
         ignore line: [ C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/arm-linux-androideabi]
         ignore line: [ C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
         ignore line: [End of search list.]
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\android-ndk-r30\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi24 --sysroot=C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -static-libstdc++ -Wl --build-id=sha1 -Wl --no-rosegment -Wl --no-undefined-version -Wl --fatal-warnings -Wl --no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_7bf0f.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_7bf0f   && cd ."]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\android-ndk-r30\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi24 --sysroot=C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -static-libstdc++ -Wl --build-id=sha1 -Wl --no-rosegment -Wl --no-undefined-version -Wl --fatal-warnings -Wl --no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_f3284.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f3284   && cd ."]
         ignore line: [Android (16134705  based on r574158c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 9f872551d3c681d06fd303b36f16ed5c274735eb)]
         ignore line: [Target: armv7-none-linux-android24]
         ignore line: [Thread model: posix]
         ignore line: [InstalledDir: C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/bin]
-        link line: [ "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" --sysroot=C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot -EL -z now -z relro -z max-page-size=4096 --no-rosegment -X --hash-style=gnu --eh-frame-hdr -m armelf_linux_eabi -pie -dynamic-linker /system/bin/linker -o cmTC_7bf0f C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtbegin_dynamic.o -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/arm -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24 -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_7bf0f.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtend_android.o] ==> linker [C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld]
-        link line: [ "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" --sysroot=C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot -EL -z now -z relro -z max-page-size=4096 --no-rosegment -X --hash-style=gnu --eh-frame-hdr -m armelf_linux_eabi -pie -dynamic-linker /system/bin/linker -o cmTC_7bf0f C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtbegin_dynamic.o -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/arm -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24 -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_7bf0f.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtend_android.o] ==> linker architecture flags [-m;armelf_linux_eabi]
-        link line: [ "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" --sysroot=C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot -EL -z now -z relro -z max-page-size=4096 --no-rosegment -X --hash-style=gnu --eh-frame-hdr -m armelf_linux_eabi -pie -dynamic-linker /system/bin/linker -o cmTC_7bf0f C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtbegin_dynamic.o -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/arm -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24 -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_7bf0f.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtend_android.o]
+        link line: [ "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" --sysroot=C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot -EL -z now -z relro -z max-page-size=4096 --no-rosegment -X --hash-style=gnu --eh-frame-hdr -m armelf_linux_eabi -pie -dynamic-linker /system/bin/linker -o cmTC_f3284 C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtbegin_dynamic.o -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/arm -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24 -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_f3284.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtend_android.o] ==> linker [C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld]
+        link line: [ "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" --sysroot=C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot -EL -z now -z relro -z max-page-size=4096 --no-rosegment -X --hash-style=gnu --eh-frame-hdr -m armelf_linux_eabi -pie -dynamic-linker /system/bin/linker -o cmTC_f3284 C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtbegin_dynamic.o -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/arm -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24 -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_f3284.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtend_android.o] ==> linker architecture flags [-m;armelf_linux_eabi]
+        link line: [ "C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" --sysroot=C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot -EL -z now -z relro -z max-page-size=4096 --no-rosegment -X --hash-style=gnu --eh-frame-hdr -m armelf_linux_eabi -pie -dynamic-linker /system/bin/linker -o cmTC_f3284 C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtbegin_dynamic.o -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/arm -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24 -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib -LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_f3284.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtend_android.o]
           arg [C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld] ==> ignore
           arg [--sysroot=C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
           arg [-EL] ==> ignore
@@ -1427,7 +1496,7 @@ events:
           arg [-dynamic-linker] ==> ignore, skip following value
           arg [/system/bin/linker] ==> skip value of -dynamic-linker
           arg [-o] ==> ignore, skip following value
-          arg [cmTC_7bf0f] ==> skip value of -o
+          arg [cmTC_f3284] ==> skip value of -o
           arg [C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtbegin_dynamic.o] ==> obj [C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24/crtbegin_dynamic.o]
           arg [-LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/arm] ==> dir [C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/arm]
           arg [-LC:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24] ==> dir [C:/android-ndk-r30/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/arm-linux-androideabi/24]
@@ -1439,7 +1508,7 @@ events:
           arg [--no-undefined-version] ==> ignore
           arg [--fatal-warnings] ==> ignore
           arg [--no-undefined] ==> ignore
-          arg [CMakeFiles/cmTC_7bf0f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_f3284.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-Bstatic] ==> search static
           arg [-lc++] ==> lib [c++]
           arg [-Bdynamic] ==> search dynamic

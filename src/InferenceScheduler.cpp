@@ -4,11 +4,16 @@
 #include <iostream>
 #include <chrono>
 #include <stdexcept>
+#include <utility>
 
-InferenceScheduler::InferenceScheduler(const std::string& modelPath)
+InferenceScheduler::InferenceScheduler(const std::string& modelPath,
+                                       bool requireNnapi,
+                                       const std::string& profilePrefix)
     : env_(ORT_LOGGING_LEVEL_WARNING, "ThermalDaemon"),
       currentBackend_(ExecutionBackend::GPU_OR_NNAPI),
       modelPath_(modelPath),
+      requireNnapi_(requireNnapi),
+      profilePrefix_(profilePrefix),
       inputDims_{1, 3, 224, 224},
       memoryInfo_(Ort::MemoryInfo::CreateCpu(OrtArenaAllocator, OrtMemTypeDefault)) {
     bool nnapiInitialized = false;
@@ -19,14 +24,13 @@ InferenceScheduler::InferenceScheduler(const std::string& modelPath)
     }
 
     if (!nnapiInitialized) {
+        if (requireNnapi_) {
+            throw std::runtime_error(
+                "NNAPI could not initialize; accelerator benchmark cannot continue");
+        }
         nnapiUnavailable_ = true;
         currentBackend_ = ExecutionBackend::CPU_FALLBACK;
-        try {
-            initializeSession(ExecutionBackend::CPU_FALLBACK);
-        } catch (const std::exception& e) {
-            std::cerr << "[Scheduler Warning] Could not load model at " << modelPath_
-                      << " (" << e.what() << "). Running in mock inference mode.\n";
-        }
+        initializeSession(ExecutionBackend::CPU_FALLBACK);
     }
 
 }
@@ -35,6 +39,11 @@ bool InferenceScheduler::initializeSession(ExecutionBackend backend) {
     Ort::SessionOptions options;
     options.SetIntraOpNumThreads(backend == ExecutionBackend::CPU_FALLBACK ? 4 : 2);
     options.SetGraphOptimizationLevel(GraphOptimizationLevel::ORT_ENABLE_ALL);
+    if (!profilePrefix_.empty()) {
+        const std::string sessionProfilePrefix =
+            profilePrefix_ + "_" + std::to_string(sessionNumber_++);
+        options.EnableProfiling(sessionProfilePrefix.c_str());
+    }
 
     if (backend == ExecutionBackend::GPU_OR_NNAPI) {
         auto appendNnapi = reinterpret_cast<decltype(&OrtSessionOptionsAppendExecutionProvider_Nnapi)>(
@@ -44,7 +53,11 @@ bool InferenceScheduler::initializeSession(ExecutionBackend backend) {
             return false;
         }
 
-        Ort::ThrowOnError(appendNnapi(options, NNAPI_FLAG_USE_FP16));
+        uint32_t nnapiFlags = NNAPI_FLAG_USE_FP16;
+        if (requireNnapi_) {
+            nnapiFlags |= NNAPI_FLAG_CPU_DISABLED;
+        }
+        Ort::ThrowOnError(appendNnapi(options, nnapiFlags));
     }
 
     auto session = std::make_unique<Ort::Session>(env_, modelPath_.c_str(), options);
@@ -68,19 +81,22 @@ bool InferenceScheduler::initializeSession(ExecutionBackend backend) {
     const size_t inputTensorSize = 1 * 3 * 224 * 224;
     if (inputElementType == ONNX_TENSOR_ELEMENT_DATA_TYPE_FLOAT16) {
         inputTensorFp16Values_.assign(
-            inputTensorSize, Ort::Float16_t(0.5f));
+            inputTensorSize, Ort::Float16_t(0.0f));
         inputTensorValues_.clear();
     } else {
-        inputTensorValues_.assign(inputTensorSize, 0.5f);
+        inputTensorValues_.resize(inputTensorSize);
         inputTensorFp16Values_.clear();
     }
 
-    sessionOptions_ = std::move(options);
     session_ = std::move(session);
     inputElementType_ = inputElementType;
     currentBackend_ = backend;
     if (backend == ExecutionBackend::GPU_OR_NNAPI) {
-        std::cout << "[Scheduler] NNAPI enabled with FP16 relaxation; Android selects available accelerator devices.\n";
+        std::cout << "[Scheduler] NNAPI execution provider enabled"
+                  << (requireNnapi_
+                          ? " with NNAPI CPU devices disabled where supported"
+                          : "")
+                  << ". NNAPI may use a GPU or NPU; this does not identify a specific device.\n";
     }
     return true;
 }
@@ -110,41 +126,80 @@ void InferenceScheduler::switchBackend(ExecutionBackend backend) {
     }
 }
 
-double InferenceScheduler::runInferenceLoopStep(bool enableInference) {
-    if (!enableInference || !session_) {
-        // Simulate lightweight cycle without inference overhead
-        return 0.0;
+double InferenceScheduler::runInference(const std::vector<float>& input,
+                                        std::vector<float>& output) {
+    const size_t expectedSize = 1 * 3 * 224 * 224;
+    if (!session_) {
+        throw std::runtime_error("inference session is not initialized");
+    }
+    if (input.size() != expectedSize) {
+        throw std::runtime_error("input tensor must contain exactly 150528 float values");
     }
 
-    auto start = std::chrono::high_resolution_clock::now();
-
-    try {
-        Ort::Value inputTensor{nullptr};
-        if (inputElementType_ == ONNX_TENSOR_ELEMENT_DATA_TYPE_FLOAT16) {
-            inputTensor = Ort::Value::CreateTensor<Ort::Float16_t>(
-                memoryInfo_, inputTensorFp16Values_.data(),
-                inputTensorFp16Values_.size(), inputDims_.data(),
-                inputDims_.size());
-        } else {
-            inputTensor = Ort::Value::CreateTensor<float>(
-                memoryInfo_, inputTensorValues_.data(),
-                inputTensorValues_.size(), inputDims_.data(),
-                inputDims_.size());
+    const auto start = std::chrono::steady_clock::now();
+    Ort::Value inputTensor{nullptr};
+    if (inputElementType_ == ONNX_TENSOR_ELEMENT_DATA_TYPE_FLOAT16) {
+        for (size_t i = 0; i < input.size(); ++i) {
+            inputTensorFp16Values_[i] = Ort::Float16_t(input[i]);
         }
-
-        const char* inputNames[] = {inputName_.c_str()};
-        const char* outputNames[] = {outputName_.c_str()};
-
-        auto outputTensors = session_->Run(
-            Ort::RunOptions{nullptr}, 
-            inputNames, &inputTensor, 1, 
-            outputNames, 1
-        );
-    } catch (const std::exception& e) {
-        std::cerr << "[Inference Warning] MobileNet inference failed: " << e.what() << "\n";
+        inputTensor = Ort::Value::CreateTensor<Ort::Float16_t>(
+            memoryInfo_, inputTensorFp16Values_.data(),
+            inputTensorFp16Values_.size(), inputDims_.data(),
+            inputDims_.size());
+    } else {
+        inputTensorValues_ = input;
+        inputTensor = Ort::Value::CreateTensor<float>(
+            memoryInfo_, inputTensorValues_.data(), inputTensorValues_.size(),
+            inputDims_.data(), inputDims_.size());
     }
 
-    auto end = std::chrono::high_resolution_clock::now();
-    std::chrono::duration<double, std::milli> duration = end - start;
-    return duration.count();
+    const char* inputNames[] = {inputName_.c_str()};
+    const char* outputNames[] = {outputName_.c_str()};
+    auto outputTensors = session_->Run(
+        Ort::RunOptions{nullptr}, inputNames, &inputTensor, 1, outputNames, 1);
+    if (outputTensors.empty()) {
+        throw std::runtime_error("model returned no output tensor");
+    }
+
+    const auto outputInfo =
+        outputTensors.front().GetTensorTypeAndShapeInfo();
+    const size_t outputSize = outputInfo.GetElementCount();
+    if (outputSize == 0) {
+        throw std::runtime_error("model returned an empty output tensor");
+    }
+
+    switch (outputInfo.GetElementType()) {
+        case ONNX_TENSOR_ELEMENT_DATA_TYPE_FLOAT: {
+            const float* outputData =
+                outputTensors.front().GetTensorData<float>();
+            output.assign(outputData, outputData + outputSize);
+            break;
+        }
+        case ONNX_TENSOR_ELEMENT_DATA_TYPE_FLOAT16: {
+            const Ort::Float16_t* outputData =
+                outputTensors.front().GetTensorData<Ort::Float16_t>();
+            output.resize(outputSize);
+            for (size_t i = 0; i < outputSize; ++i) {
+                output[i] = outputData[i].ToFloat();
+            }
+            break;
+        }
+        default:
+            throw std::runtime_error(
+                "unsupported model output tensor type " +
+                std::to_string(static_cast<int>(outputInfo.GetElementType())) +
+                "; classification scores must be float32 or float16");
+    }
+
+    const auto end = std::chrono::steady_clock::now();
+    return std::chrono::duration<double, std::milli>(end - start).count();
+}
+
+std::string InferenceScheduler::endProfiling() {
+    if (!session_ || profilePrefix_.empty()) {
+        return "";
+    }
+    Ort::AllocatorWithDefaultOptions allocator;
+    auto profilePath = session_->EndProfilingAllocated(allocator);
+    return profilePath.get();
 }

@@ -3,6 +3,7 @@
 
 namespace ThermalConfig {
     constexpr int SAMPLING_INTERVAL_MS = 50;
+    constexpr int MAX_RUNTIME_MINUTES = 5;
     inline const std::string THERMAL_ZONE_PATH =
         "/sys/class/thermal/thermal_zone1/temp";
     

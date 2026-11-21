@@ -1,0 +1,602 @@
+[
+  {
+    "tensor": "000_angryluffy_original.tensor",
+    "filtered_image": "filtered_images\\000_angryluffy_original.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\angryluffy.png",
+    "filter": "original"
+  },
+  {
+    "tensor": "000_angryluffy_grayscale.tensor",
+    "filtered_image": "filtered_images\\000_angryluffy_grayscale.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\angryluffy.png",
+    "filter": "grayscale"
+  },
+  {
+    "tensor": "000_angryluffy_brightness_0_65.tensor",
+    "filtered_image": "filtered_images\\000_angryluffy_brightness_0_65.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\angryluffy.png",
+    "filter": "brightness_0_65"
+  },
+  {
+    "tensor": "000_angryluffy_contrast_1_35.tensor",
+    "filtered_image": "filtered_images\\000_angryluffy_contrast_1_35.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\angryluffy.png",
+    "filter": "contrast_1_35"
+  },
+  {
+    "tensor": "000_angryluffy_sharpen.tensor",
+    "filtered_image": "filtered_images\\000_angryluffy_sharpen.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\angryluffy.png",
+    "filter": "sharpen"
+  },
+  {
+    "tensor": "001_crew_original.tensor",
+    "filtered_image": "filtered_images\\001_crew_original.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\crew.jpg",
+    "filter": "original"
+  },
+  {
+    "tensor": "001_crew_grayscale.tensor",
+    "filtered_image": "filtered_images\\001_crew_grayscale.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\crew.jpg",
+    "filter": "grayscale"
+  },
+  {
+    "tensor": "001_crew_brightness_0_65.tensor",
+    "filtered_image": "filtered_images\\001_crew_brightness_0_65.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\crew.jpg",
+    "filter": "brightness_0_65"
+  },
+  {
+    "tensor": "001_crew_contrast_1_35.tensor",
+    "filtered_image": "filtered_images\\001_crew_contrast_1_35.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\crew.jpg",
+    "filter": "contrast_1_35"
+  },
+  {
+    "tensor": "001_crew_sharpen.tensor",
+    "filtered_image": "filtered_images\\001_crew_sharpen.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\crew.jpg",
+    "filter": "sharpen"
+  },
+  {
+    "tensor": "002_IMG-20260322-WA0000_original.tensor",
+    "filtered_image": "filtered_images\\002_IMG-20260322-WA0000_original.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\IMG-20260322-WA0000.jpg",
+    "filter": "original"
+  },
+  {
+    "tensor": "002_IMG-20260322-WA0000_grayscale.tensor",
+    "filtered_image": "filtered_images\\002_IMG-20260322-WA0000_grayscale.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\IMG-20260322-WA0000.jpg",
+    "filter": "grayscale"
+  },
+  {
+    "tensor": "002_IMG-20260322-WA0000_brightness_0_65.tensor",
+    "filtered_image": "filtered_images\\002_IMG-20260322-WA0000_brightness_0_65.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\IMG-20260322-WA0000.jpg",
+    "filter": "brightness_0_65"
+  },
+  {
+    "tensor": "002_IMG-20260322-WA0000_contrast_1_35.tensor",
+    "filtered_image": "filtered_images\\002_IMG-20260322-WA0000_contrast_1_35.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\IMG-20260322-WA0000.jpg",
+    "filter": "contrast_1_35"
+  },
+  {
+    "tensor": "002_IMG-20260322-WA0000_sharpen.tensor",
+    "filtered_image": "filtered_images\\002_IMG-20260322-WA0000_sharpen.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\IMG-20260322-WA0000.jpg",
+    "filter": "sharpen"
+  },
+  {
+    "tensor": "003_IMG-20260516-WA0002_original.tensor",
+    "filtered_image": "filtered_images\\003_IMG-20260516-WA0002_original.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\IMG-20260516-WA0002.jpg",
+    "filter": "original"
+  },
+  {
+    "tensor": "003_IMG-20260516-WA0002_grayscale.tensor",
+    "filtered_image": "filtered_images\\003_IMG-20260516-WA0002_grayscale.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\IMG-20260516-WA0002.jpg",
+    "filter": "grayscale"
+  },
+  {
+    "tensor": "003_IMG-20260516-WA0002_brightness_0_65.tensor",
+    "filtered_image": "filtered_images\\003_IMG-20260516-WA0002_brightness_0_65.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\IMG-20260516-WA0002.jpg",
+    "filter": "brightness_0_65"
+  },
+  {
+    "tensor": "003_IMG-20260516-WA0002_contrast_1_35.tensor",
+    "filtered_image": "filtered_images\\003_IMG-20260516-WA0002_contrast_1_35.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\IMG-20260516-WA0002.jpg",
+    "filter": "contrast_1_35"
+  },
+  {
+    "tensor": "003_IMG-20260516-WA0002_sharpen.tensor",
+    "filtered_image": "filtered_images\\003_IMG-20260516-WA0002_sharpen.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\IMG-20260516-WA0002.jpg",
+    "filter": "sharpen"
+  },
+  {
+    "tensor": "004_IMG-20260822-WA0060_original.tensor",
+    "filtered_image": "filtered_images\\004_IMG-20260822-WA0060_original.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\IMG-20260822-WA0060.jpg",
+    "filter": "original"
+  },
+  {
+    "tensor": "004_IMG-20260822-WA0060_grayscale.tensor",
+    "filtered_image": "filtered_images\\004_IMG-20260822-WA0060_grayscale.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\IMG-20260822-WA0060.jpg",
+    "filter": "grayscale"
+  },
+  {
+    "tensor": "004_IMG-20260822-WA0060_brightness_0_65.tensor",
+    "filtered_image": "filtered_images\\004_IMG-20260822-WA0060_brightness_0_65.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\IMG-20260822-WA0060.jpg",
+    "filter": "brightness_0_65"
+  },
+  {
+    "tensor": "004_IMG-20260822-WA0060_contrast_1_35.tensor",
+    "filtered_image": "filtered_images\\004_IMG-20260822-WA0060_contrast_1_35.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\IMG-20260822-WA0060.jpg",
+    "filter": "contrast_1_35"
+  },
+  {
+    "tensor": "004_IMG-20260822-WA0060_sharpen.tensor",
+    "filtered_image": "filtered_images\\004_IMG-20260822-WA0060_sharpen.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\IMG-20260822-WA0060.jpg",
+    "filter": "sharpen"
+  },
+  {
+    "tensor": "005_krishna.jpg_original.tensor",
+    "filtered_image": "filtered_images\\005_krishna.jpg_original.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\krishna.jpg.jpeg",
+    "filter": "original"
+  },
+  {
+    "tensor": "005_krishna.jpg_grayscale.tensor",
+    "filtered_image": "filtered_images\\005_krishna.jpg_grayscale.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\krishna.jpg.jpeg",
+    "filter": "grayscale"
+  },
+  {
+    "tensor": "005_krishna.jpg_brightness_0_65.tensor",
+    "filtered_image": "filtered_images\\005_krishna.jpg_brightness_0_65.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\krishna.jpg.jpeg",
+    "filter": "brightness_0_65"
+  },
+  {
+    "tensor": "005_krishna.jpg_contrast_1_35.tensor",
+    "filtered_image": "filtered_images\\005_krishna.jpg_contrast_1_35.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\krishna.jpg.jpeg",
+    "filter": "contrast_1_35"
+  },
+  {
+    "tensor": "005_krishna.jpg_sharpen.tensor",
+    "filtered_image": "filtered_images\\005_krishna.jpg_sharpen.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\krishna.jpg.jpeg",
+    "filter": "sharpen"
+  },
+  {
+    "tensor": "006_lord krishna_original.tensor",
+    "filtered_image": "filtered_images\\006_lord krishna_original.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\lord krishna.jpg",
+    "filter": "original"
+  },
+  {
+    "tensor": "006_lord krishna_grayscale.tensor",
+    "filtered_image": "filtered_images\\006_lord krishna_grayscale.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\lord krishna.jpg",
+    "filter": "grayscale"
+  },
+  {
+    "tensor": "006_lord krishna_brightness_0_65.tensor",
+    "filtered_image": "filtered_images\\006_lord krishna_brightness_0_65.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\lord krishna.jpg",
+    "filter": "brightness_0_65"
+  },
+  {
+    "tensor": "006_lord krishna_contrast_1_35.tensor",
+    "filtered_image": "filtered_images\\006_lord krishna_contrast_1_35.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\lord krishna.jpg",
+    "filter": "contrast_1_35"
+  },
+  {
+    "tensor": "006_lord krishna_sharpen.tensor",
+    "filtered_image": "filtered_images\\006_lord krishna_sharpen.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\lord krishna.jpg",
+    "filter": "sharpen"
+  },
+  {
+    "tensor": "007_Luffy wallpaper_original.tensor",
+    "filtered_image": "filtered_images\\007_Luffy wallpaper_original.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Luffy wallpaper.png",
+    "filter": "original"
+  },
+  {
+    "tensor": "007_Luffy wallpaper_grayscale.tensor",
+    "filtered_image": "filtered_images\\007_Luffy wallpaper_grayscale.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Luffy wallpaper.png",
+    "filter": "grayscale"
+  },
+  {
+    "tensor": "007_Luffy wallpaper_brightness_0_65.tensor",
+    "filtered_image": "filtered_images\\007_Luffy wallpaper_brightness_0_65.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Luffy wallpaper.png",
+    "filter": "brightness_0_65"
+  },
+  {
+    "tensor": "007_Luffy wallpaper_contrast_1_35.tensor",
+    "filtered_image": "filtered_images\\007_Luffy wallpaper_contrast_1_35.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Luffy wallpaper.png",
+    "filter": "contrast_1_35"
+  },
+  {
+    "tensor": "007_Luffy wallpaper_sharpen.tensor",
+    "filtered_image": "filtered_images\\007_Luffy wallpaper_sharpen.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Luffy wallpaper.png",
+    "filter": "sharpen"
+  },
+  {
+    "tensor": "008_luffycrew_original.tensor",
+    "filtered_image": "filtered_images\\008_luffycrew_original.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\luffycrew.jpg",
+    "filter": "original"
+  },
+  {
+    "tensor": "008_luffycrew_grayscale.tensor",
+    "filtered_image": "filtered_images\\008_luffycrew_grayscale.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\luffycrew.jpg",
+    "filter": "grayscale"
+  },
+  {
+    "tensor": "008_luffycrew_brightness_0_65.tensor",
+    "filtered_image": "filtered_images\\008_luffycrew_brightness_0_65.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\luffycrew.jpg",
+    "filter": "brightness_0_65"
+  },
+  {
+    "tensor": "008_luffycrew_contrast_1_35.tensor",
+    "filtered_image": "filtered_images\\008_luffycrew_contrast_1_35.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\luffycrew.jpg",
+    "filter": "contrast_1_35"
+  },
+  {
+    "tensor": "008_luffycrew_sharpen.tensor",
+    "filtered_image": "filtered_images\\008_luffycrew_sharpen.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\luffycrew.jpg",
+    "filter": "sharpen"
+  },
+  {
+    "tensor": "009_Screenshot 2026-11-20 213102_original.tensor",
+    "filtered_image": "filtered_images\\009_Screenshot 2026-11-20 213102_original.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213102.png",
+    "filter": "original"
+  },
+  {
+    "tensor": "009_Screenshot 2026-11-20 213102_grayscale.tensor",
+    "filtered_image": "filtered_images\\009_Screenshot 2026-11-20 213102_grayscale.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213102.png",
+    "filter": "grayscale"
+  },
+  {
+    "tensor": "009_Screenshot 2026-11-20 213102_brightness_0_65.tensor",
+    "filtered_image": "filtered_images\\009_Screenshot 2026-11-20 213102_brightness_0_65.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213102.png",
+    "filter": "brightness_0_65"
+  },
+  {
+    "tensor": "009_Screenshot 2026-11-20 213102_contrast_1_35.tensor",
+    "filtered_image": "filtered_images\\009_Screenshot 2026-11-20 213102_contrast_1_35.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213102.png",
+    "filter": "contrast_1_35"
+  },
+  {
+    "tensor": "009_Screenshot 2026-11-20 213102_sharpen.tensor",
+    "filtered_image": "filtered_images\\009_Screenshot 2026-11-20 213102_sharpen.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213102.png",
+    "filter": "sharpen"
+  },
+  {
+    "tensor": "010_Screenshot 2026-11-20 213124_original.tensor",
+    "filtered_image": "filtered_images\\010_Screenshot 2026-11-20 213124_original.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213124.png",
+    "filter": "original"
+  },
+  {
+    "tensor": "010_Screenshot 2026-11-20 213124_grayscale.tensor",
+    "filtered_image": "filtered_images\\010_Screenshot 2026-11-20 213124_grayscale.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213124.png",
+    "filter": "grayscale"
+  },
+  {
+    "tensor": "010_Screenshot 2026-11-20 213124_brightness_0_65.tensor",
+    "filtered_image": "filtered_images\\010_Screenshot 2026-11-20 213124_brightness_0_65.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213124.png",
+    "filter": "brightness_0_65"
+  },
+  {
+    "tensor": "010_Screenshot 2026-11-20 213124_contrast_1_35.tensor",
+    "filtered_image": "filtered_images\\010_Screenshot 2026-11-20 213124_contrast_1_35.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213124.png",
+    "filter": "contrast_1_35"
+  },
+  {
+    "tensor": "010_Screenshot 2026-11-20 213124_sharpen.tensor",
+    "filtered_image": "filtered_images\\010_Screenshot 2026-11-20 213124_sharpen.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213124.png",
+    "filter": "sharpen"
+  },
+  {
+    "tensor": "011_Screenshot 2026-11-20 213148_original.tensor",
+    "filtered_image": "filtered_images\\011_Screenshot 2026-11-20 213148_original.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213148.png",
+    "filter": "original"
+  },
+  {
+    "tensor": "011_Screenshot 2026-11-20 213148_grayscale.tensor",
+    "filtered_image": "filtered_images\\011_Screenshot 2026-11-20 213148_grayscale.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213148.png",
+    "filter": "grayscale"
+  },
+  {
+    "tensor": "011_Screenshot 2026-11-20 213148_brightness_0_65.tensor",
+    "filtered_image": "filtered_images\\011_Screenshot 2026-11-20 213148_brightness_0_65.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213148.png",
+    "filter": "brightness_0_65"
+  },
+  {
+    "tensor": "011_Screenshot 2026-11-20 213148_contrast_1_35.tensor",
+    "filtered_image": "filtered_images\\011_Screenshot 2026-11-20 213148_contrast_1_35.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213148.png",
+    "filter": "contrast_1_35"
+  },
+  {
+    "tensor": "011_Screenshot 2026-11-20 213148_sharpen.tensor",
+    "filtered_image": "filtered_images\\011_Screenshot 2026-11-20 213148_sharpen.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213148.png",
+    "filter": "sharpen"
+  },
+  {
+    "tensor": "012_Screenshot 2026-11-20 213231_original.tensor",
+    "filtered_image": "filtered_images\\012_Screenshot 2026-11-20 213231_original.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213231.png",
+    "filter": "original"
+  },
+  {
+    "tensor": "012_Screenshot 2026-11-20 213231_grayscale.tensor",
+    "filtered_image": "filtered_images\\012_Screenshot 2026-11-20 213231_grayscale.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213231.png",
+    "filter": "grayscale"
+  },
+  {
+    "tensor": "012_Screenshot 2026-11-20 213231_brightness_0_65.tensor",
+    "filtered_image": "filtered_images\\012_Screenshot 2026-11-20 213231_brightness_0_65.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213231.png",
+    "filter": "brightness_0_65"
+  },
+  {
+    "tensor": "012_Screenshot 2026-11-20 213231_contrast_1_35.tensor",
+    "filtered_image": "filtered_images\\012_Screenshot 2026-11-20 213231_contrast_1_35.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213231.png",
+    "filter": "contrast_1_35"
+  },
+  {
+    "tensor": "012_Screenshot 2026-11-20 213231_sharpen.tensor",
+    "filtered_image": "filtered_images\\012_Screenshot 2026-11-20 213231_sharpen.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213231.png",
+    "filter": "sharpen"
+  },
+  {
+    "tensor": "013_Screenshot 2026-11-20 213417_original.tensor",
+    "filtered_image": "filtered_images\\013_Screenshot 2026-11-20 213417_original.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213417.png",
+    "filter": "original"
+  },
+  {
+    "tensor": "013_Screenshot 2026-11-20 213417_grayscale.tensor",
+    "filtered_image": "filtered_images\\013_Screenshot 2026-11-20 213417_grayscale.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213417.png",
+    "filter": "grayscale"
+  },
+  {
+    "tensor": "013_Screenshot 2026-11-20 213417_brightness_0_65.tensor",
+    "filtered_image": "filtered_images\\013_Screenshot 2026-11-20 213417_brightness_0_65.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213417.png",
+    "filter": "brightness_0_65"
+  },
+  {
+    "tensor": "013_Screenshot 2026-11-20 213417_contrast_1_35.tensor",
+    "filtered_image": "filtered_images\\013_Screenshot 2026-11-20 213417_contrast_1_35.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213417.png",
+    "filter": "contrast_1_35"
+  },
+  {
+    "tensor": "013_Screenshot 2026-11-20 213417_sharpen.tensor",
+    "filtered_image": "filtered_images\\013_Screenshot 2026-11-20 213417_sharpen.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213417.png",
+    "filter": "sharpen"
+  },
+  {
+    "tensor": "014_Screenshot 2026-11-20 213436_original.tensor",
+    "filtered_image": "filtered_images\\014_Screenshot 2026-11-20 213436_original.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213436.png",
+    "filter": "original"
+  },
+  {
+    "tensor": "014_Screenshot 2026-11-20 213436_grayscale.tensor",
+    "filtered_image": "filtered_images\\014_Screenshot 2026-11-20 213436_grayscale.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213436.png",
+    "filter": "grayscale"
+  },
+  {
+    "tensor": "014_Screenshot 2026-11-20 213436_brightness_0_65.tensor",
+    "filtered_image": "filtered_images\\014_Screenshot 2026-11-20 213436_brightness_0_65.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213436.png",
+    "filter": "brightness_0_65"
+  },
+  {
+    "tensor": "014_Screenshot 2026-11-20 213436_contrast_1_35.tensor",
+    "filtered_image": "filtered_images\\014_Screenshot 2026-11-20 213436_contrast_1_35.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213436.png",
+    "filter": "contrast_1_35"
+  },
+  {
+    "tensor": "014_Screenshot 2026-11-20 213436_sharpen.tensor",
+    "filtered_image": "filtered_images\\014_Screenshot 2026-11-20 213436_sharpen.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213436.png",
+    "filter": "sharpen"
+  },
+  {
+    "tensor": "015_Screenshot 2026-11-20 213514_original.tensor",
+    "filtered_image": "filtered_images\\015_Screenshot 2026-11-20 213514_original.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213514.png",
+    "filter": "original"
+  },
+  {
+    "tensor": "015_Screenshot 2026-11-20 213514_grayscale.tensor",
+    "filtered_image": "filtered_images\\015_Screenshot 2026-11-20 213514_grayscale.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213514.png",
+    "filter": "grayscale"
+  },
+  {
+    "tensor": "015_Screenshot 2026-11-20 213514_brightness_0_65.tensor",
+    "filtered_image": "filtered_images\\015_Screenshot 2026-11-20 213514_brightness_0_65.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213514.png",
+    "filter": "brightness_0_65"
+  },
+  {
+    "tensor": "015_Screenshot 2026-11-20 213514_contrast_1_35.tensor",
+    "filtered_image": "filtered_images\\015_Screenshot 2026-11-20 213514_contrast_1_35.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213514.png",
+    "filter": "contrast_1_35"
+  },
+  {
+    "tensor": "015_Screenshot 2026-11-20 213514_sharpen.tensor",
+    "filtered_image": "filtered_images\\015_Screenshot 2026-11-20 213514_sharpen.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213514.png",
+    "filter": "sharpen"
+  },
+  {
+    "tensor": "016_Screenshot 2026-11-20 213535_original.tensor",
+    "filtered_image": "filtered_images\\016_Screenshot 2026-11-20 213535_original.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213535.png",
+    "filter": "original"
+  },
+  {
+    "tensor": "016_Screenshot 2026-11-20 213535_grayscale.tensor",
+    "filtered_image": "filtered_images\\016_Screenshot 2026-11-20 213535_grayscale.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213535.png",
+    "filter": "grayscale"
+  },
+  {
+    "tensor": "016_Screenshot 2026-11-20 213535_brightness_0_65.tensor",
+    "filtered_image": "filtered_images\\016_Screenshot 2026-11-20 213535_brightness_0_65.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213535.png",
+    "filter": "brightness_0_65"
+  },
+  {
+    "tensor": "016_Screenshot 2026-11-20 213535_contrast_1_35.tensor",
+    "filtered_image": "filtered_images\\016_Screenshot 2026-11-20 213535_contrast_1_35.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213535.png",
+    "filter": "contrast_1_35"
+  },
+  {
+    "tensor": "016_Screenshot 2026-11-20 213535_sharpen.tensor",
+    "filtered_image": "filtered_images\\016_Screenshot 2026-11-20 213535_sharpen.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 213535.png",
+    "filter": "sharpen"
+  },
+  {
+    "tensor": "017_Screenshot 2026-11-20 214727_original.tensor",
+    "filtered_image": "filtered_images\\017_Screenshot 2026-11-20 214727_original.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 214727.png",
+    "filter": "original"
+  },
+  {
+    "tensor": "017_Screenshot 2026-11-20 214727_grayscale.tensor",
+    "filtered_image": "filtered_images\\017_Screenshot 2026-11-20 214727_grayscale.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 214727.png",
+    "filter": "grayscale"
+  },
+  {
+    "tensor": "017_Screenshot 2026-11-20 214727_brightness_0_65.tensor",
+    "filtered_image": "filtered_images\\017_Screenshot 2026-11-20 214727_brightness_0_65.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 214727.png",
+    "filter": "brightness_0_65"
+  },
+  {
+    "tensor": "017_Screenshot 2026-11-20 214727_contrast_1_35.tensor",
+    "filtered_image": "filtered_images\\017_Screenshot 2026-11-20 214727_contrast_1_35.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 214727.png",
+    "filter": "contrast_1_35"
+  },
+  {
+    "tensor": "017_Screenshot 2026-11-20 214727_sharpen.tensor",
+    "filtered_image": "filtered_images\\017_Screenshot 2026-11-20 214727_sharpen.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 214727.png",
+    "filter": "sharpen"
+  },
+  {
+    "tensor": "018_Screenshot 2026-11-20 214821_original.tensor",
+    "filtered_image": "filtered_images\\018_Screenshot 2026-11-20 214821_original.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 214821.png",
+    "filter": "original"
+  },
+  {
+    "tensor": "018_Screenshot 2026-11-20 214821_grayscale.tensor",
+    "filtered_image": "filtered_images\\018_Screenshot 2026-11-20 214821_grayscale.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 214821.png",
+    "filter": "grayscale"
+  },
+  {
+    "tensor": "018_Screenshot 2026-11-20 214821_brightness_0_65.tensor",
+    "filtered_image": "filtered_images\\018_Screenshot 2026-11-20 214821_brightness_0_65.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 214821.png",
+    "filter": "brightness_0_65"
+  },
+  {
+    "tensor": "018_Screenshot 2026-11-20 214821_contrast_1_35.tensor",
+    "filtered_image": "filtered_images\\018_Screenshot 2026-11-20 214821_contrast_1_35.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 214821.png",
+    "filter": "contrast_1_35"
+  },
+  {
+    "tensor": "018_Screenshot 2026-11-20 214821_sharpen.tensor",
+    "filtered_image": "filtered_images\\018_Screenshot 2026-11-20 214821_sharpen.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\Screenshot 2026-11-20 214821.png",
+    "filter": "sharpen"
+  },
+  {
+    "tensor": "019_🦚✨ The Eternal Protector — Lord Krishna 🙏💛Beyond time, beyond fear, and beyond all limits — _original.tensor",
+    "filtered_image": "filtered_images\\019_🦚✨ The Eternal Protector — Lord Krishna 🙏💛Beyond time, beyond fear, and beyond all limits — _original.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\🦚✨ The Eternal Protector — Lord Krishna 🙏💛Beyond time, beyond fear, and beyond all limits — .jpg",
+    "filter": "original"
+  },
+  {
+    "tensor": "019_🦚✨ The Eternal Protector — Lord Krishna 🙏💛Beyond time, beyond fear, and beyond all limits — _grayscale.tensor",
+    "filtered_image": "filtered_images\\019_🦚✨ The Eternal Protector — Lord Krishna 🙏💛Beyond time, beyond fear, and beyond all limits — _grayscale.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\🦚✨ The Eternal Protector — Lord Krishna 🙏💛Beyond time, beyond fear, and beyond all limits — .jpg",
+    "filter": "grayscale"
+  },
+  {
+    "tensor": "019_🦚✨ The Eternal Protector — Lord Krishna 🙏💛Beyond time, beyond fear, and beyond all limits — _brightness_0_65.tensor",
+    "filtered_image": "filtered_images\\019_🦚✨ The Eternal Protector — Lord Krishna 🙏💛Beyond time, beyond fear, and beyond all limits — _brightness_0_65.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\🦚✨ The Eternal Protector — Lord Krishna 🙏💛Beyond time, beyond fear, and beyond all limits — .jpg",
+    "filter": "brightness_0_65"
+  },
+  {
+    "tensor": "019_🦚✨ The Eternal Protector — Lord Krishna 🙏💛Beyond time, beyond fear, and beyond all limits — _contrast_1_35.tensor",
+    "filtered_image": "filtered_images\\019_🦚✨ The Eternal Protector — Lord Krishna 🙏💛Beyond time, beyond fear, and beyond all limits — _contrast_1_35.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\🦚✨ The Eternal Protector — Lord Krishna 🙏💛Beyond time, beyond fear, and beyond all limits — .jpg",
+    "filter": "contrast_1_35"
+  },
+  {
+    "tensor": "019_🦚✨ The Eternal Protector — Lord Krishna 🙏💛Beyond time, beyond fear, and beyond all limits — _sharpen.tensor",
+    "filtered_image": "filtered_images\\019_🦚✨ The Eternal Protector — Lord Krishna 🙏💛Beyond time, beyond fear, and beyond all limits — _sharpen.png",
+    "image": "C:\\Users\\luffy\\Downloads\\thermal_daemon\\imgs\\🦚✨ The Eternal Protector — Lord Krishna 🙏💛Beyond time, beyond fear, and beyond all limits — .jpg",
+    "filter": "sharpen"
+  }
+]

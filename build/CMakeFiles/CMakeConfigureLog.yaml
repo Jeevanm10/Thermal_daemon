@@ -22029,3 +22029,3451 @@ events:
     message: |
       Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
 ...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:1405 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:97 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:1405 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:97 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:1405 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:97 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:1405 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:97 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:1405 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:97 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:1405 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:97 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: --c++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: --ec++ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:541 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:583 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\luffy\\Downloads\\opencv\\build\\x64\\vc16\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\platform-tools\\platform-tools"
+        - "C:\\android-ndk-r30"
+        - "C:\\Program Files\\Microsoft VS Code\\bin"
+        - "C:\\Program Files\\Microsoft VS Code\\bin\\copilot-shim"
+        - "C:\\Program Files\\nodejs"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\ninja"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Python\\Python314\\"
+        - "C:\\Users\\luffy\\.local\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Program Files\\MongoDB\\Server\\8.2\\bin"
+        - "C:\\Users\\luffy\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\luffy\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/ThermalDaemon"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: C:/Program Files/Microsoft Visual Studio/18/Insiders/VC/Tools/Llvm/x64/bin/clang.exe 
+      Build flags: 
+      Id flags: -c;-I__does_not_exist__ 
+      
+      The output was:
+      no such file or directory
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:1405 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:97 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:1405 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCompilerId.cmake:97 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-4.5/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+...
