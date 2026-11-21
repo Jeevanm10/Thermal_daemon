@@ -5,3 +5,6 @@
 21750	22548	8169798725622750	thermal_daemon	99b356a9830ceb08
 160	6059	8169810580122042	CMakeFiles/thermal_daemon.dir/src/InferenceScheduler.cpp.o	de0e8afe3e7963c1
 6063	6546	8169810639159076	thermal_daemon	99b356a9830ceb08
+236	13069	8169827298157625	CMakeFiles/thermal_daemon.dir/src/InferenceScheduler.cpp.o	de0e8afe3e7963c1
+175	13313	8169827297546967	CMakeFiles/thermal_daemon.dir/src/main.cpp.o	1c020e4a306d281e
+13315	13967	8169827428946041	thermal_daemon	99b356a9830ceb08

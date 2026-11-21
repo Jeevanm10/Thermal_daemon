@@ -103,7 +103,7 @@ def main():
         json.dump(manifest, manifest_file, indent=2, ensure_ascii=False)
     print("Created {} filtered PNGs and tensors in {}".format(len(manifest), args.output))
     print("Input: RGB resized to 224x224, NCHW float32, normalized to [-1, 1].")
-    print("This is the standard MobileNetV2 preprocessing; verify it matches this ONNX export.")
+    print("Verify this preprocessing matches the converted TensorFlow Lite model.")
 
 
 if __name__ == "__main__":

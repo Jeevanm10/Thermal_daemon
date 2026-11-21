@@ -9,7 +9,6 @@
 #include <fstream>
 #include <iomanip>
 #include <iostream>
-#include <iterator>
 #include <stdexcept>
 #include <string>
 #include <thread>
@@ -20,16 +19,6 @@ volatile std::sig_atomic_t g_running = true;
 
 void signalHandler(int) {
     g_running = false;
-}
-
-size_t countOccurrences(const std::string& text, const std::string& needle) {
-    size_t count = 0;
-    size_t position = 0;
-    while ((position = text.find(needle, position)) != std::string::npos) {
-        ++count;
-        position += needle.size();
-    }
-    return count;
 }
 
 struct Prediction {
@@ -108,9 +97,7 @@ void runBenchmark(const std::string& inputDirectory) {
             "no .tensor inputs found; run tools/prepare_images.py first");
     }
 
-    InferenceScheduler scheduler(
-        "/data/local/tmp/mobilenetv2.onnx", true,
-        "/data/local/tmp/thermal_daemon_profile");
+    InferenceScheduler scheduler("/data/local/tmp/mobilenetv2.tflite");
     const std::string reportPath =
         "/data/local/tmp/thermal_benchmark_results.csv";
     std::ofstream report(reportPath, std::ios::trunc);
@@ -121,15 +108,14 @@ void runBenchmark(const std::string& inputDirectory) {
     report << "pass,tensor,top1,score,latency_ms\n";
 
     const auto runPass = [&](const std::string& passName,
-                             ExecutionBackend expectedBackend,
-                             const std::string& expectedProvider) {
+                             ExecutionBackend expectedBackend) {
         if (scheduler.currentBackend() != expectedBackend) {
             throw std::runtime_error(passName + " backend switch did not take effect");
         }
         std::cout << "[Benchmark] Starting " << passName << " on "
                   << (expectedBackend == ExecutionBackend::CPU_FALLBACK
                           ? "CPU"
-                          : "NNAPI")
+                          : "TensorFlow Lite GPU delegate")
                   << ".\n";
         for (const auto& tensorFile : tensorFiles) {
             const auto input = loadTensor(tensorFile);
@@ -157,44 +143,16 @@ void runBenchmark(const std::string& inputDirectory) {
             }
         }
 
-        const std::string profilePath = scheduler.endProfiling();
-        if (profilePath.empty()) {
-            throw std::runtime_error("ONNX Runtime profiling was not enabled");
-        }
-        std::ifstream profileFile(profilePath);
-        if (!profileFile) {
-            throw std::runtime_error("could not read ONNX Runtime profile: " +
-                                     profilePath);
-        }
-        const std::string profile(
-            (std::istreambuf_iterator<char>(profileFile)),
-            std::istreambuf_iterator<char>());
-        size_t providerEvents = countOccurrences(profile, expectedProvider);
-        if (expectedProvider == "NNAPIExecutionProvider") {
-            providerEvents += countOccurrences(profile, "NnapiExecutionProvider");
-        }
-        const size_t cpuEvents =
-            countOccurrences(profile, "CPUExecutionProvider");
-        std::cout << "[Benchmark] " << passName << " profile=" << profilePath
-                  << " " << expectedProvider << "_events=" << providerEvents
-                  << " CPUExecutionProvider_events=" << cpuEvents << "\n";
-        if (providerEvents == 0) {
-            throw std::runtime_error(
-                passName + " profile contains no " + expectedProvider +
-                " execution events; backend use was not verified");
-        }
     };
 
-    runPass("accelerated pass", ExecutionBackend::GPU_OR_NNAPI,
-            "NNAPIExecutionProvider");
+    runPass("GPU delegate pass", ExecutionBackend::GPU_DELEGATE);
     scheduler.switchBackend(ExecutionBackend::CPU_FALLBACK);
-    runPass("CPU fallback pass", ExecutionBackend::CPU_FALLBACK,
-            "CPUExecutionProvider");
-    scheduler.switchBackend(ExecutionBackend::GPU_OR_NNAPI);
-    runPass("accelerator recovery pass", ExecutionBackend::GPU_OR_NNAPI,
-            "NNAPIExecutionProvider");
-    std::cout << "[Benchmark] NNAPI -> CPU -> NNAPI switching verified. "
-                 "NNAPI does not identify whether the selected hardware is a GPU or NPU.\n";
+    runPass("CPU fallback pass", ExecutionBackend::CPU_FALLBACK);
+    scheduler.switchBackend(ExecutionBackend::GPU_DELEGATE);
+    runPass("GPU delegate recovery pass", ExecutionBackend::GPU_DELEGATE);
+    std::cout << "[Benchmark] GPU delegate -> CPU -> GPU delegate switching "
+                 "verified. Delegate attachment does not prove that every "
+                 "model operation ran on the GPU.\n";
     std::cout << "[Benchmark] Predictions: " << reportPath << "\n";
 }
 }
@@ -228,8 +186,7 @@ int main(int argc, char** argv) {
                 "prepare and push them with tools/prepare_images.py");
         }
         ThermalMonitor monitor(ThermalConfig::THERMAL_ZONE_PATH);
-        InferenceScheduler scheduler(
-            "/data/local/tmp/mobilenetv2.onnx");
+        InferenceScheduler scheduler("/data/local/tmp/mobilenetv2.tflite");
         std::vector<Prediction> latestPredictions(tensorFiles.size());
         size_t nextTensor = 0;
         const std::string reportPath =
@@ -257,7 +214,7 @@ int main(int argc, char** argv) {
             } else if (currentTemp <
                        (ThermalConfig::TEMP_WARNING_THRESHOLD_C -
                         ThermalConfig::HYSTERESIS_RECOVERY_DELTA_C)) {
-                scheduler.switchBackend(ExecutionBackend::GPU_OR_NNAPI);
+                scheduler.switchBackend(ExecutionBackend::GPU_DELEGATE);
             }
 
             const auto& tensorFile = tensorFiles[nextTensor];
@@ -273,7 +230,7 @@ int main(int argc, char** argv) {
             const std::string backend =
                 scheduler.currentBackend() == ExecutionBackend::CPU_FALLBACK
                     ? "CPU"
-                    : "NNAPI";
+                    : "GPU delegate";
             latestPredictions[nextTensor] = {
                 tensorFile.filename().string(), classIndex, *best, durationMs,
                 backend};

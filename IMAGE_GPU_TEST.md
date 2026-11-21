@@ -6,70 +6,100 @@ It saves viewable PNGs under `filtered_images/` and matching 224x224 model input
 tensors beside them. MobileNetV2 is a classifier, so its outputs are class
 scores rather than generated images.
 
-## Prepare inputs and filtered image outputs
+## Prepare inputs and the TensorFlow Lite model
 
-From the repository root, install Pillow and generate the inputs:
+Generate the image inputs from the repository root:
 
 ```powershell
 python -m pip install Pillow
 python tools\prepare_images.py --output build\thermal_inputs
 ```
 
-The filtered images are in `build\thermal_inputs\filtered_images`; `manifest.json`
-maps each output back to its source and filter. The `.tensor` files are raw
-little-endian float32 NCHW values. Preprocessing scales RGB values to `[-1, 1]`;
-confirm that this matches the specific ONNX export before interpreting scores.
+The `.tensor` files are raw little-endian float32 NCHW values, with RGB values
+scaled to `[-1, 1]`. The native daemon now uses TensorFlow Lite (LiteRT), not
+ONNX Runtime, and loads `/data/local/tmp/mobilenetv2.tflite`. The existing
+`third_party/onnx/mobilenetv2.onnx` cannot be loaded directly by TensorFlow Lite:
+convert it to a float32 `.tflite` model separately (for example, with
+[onnx2tf](https://github.com/PINTO0309/onnx2tf)). The converter may need
+additional model-specific fixes; verify conversion output against the ONNX
+model before using it. Copy the validated float32 model to
+`build/mobilenetv2.tflite`. The daemon accepts model
+inputs shaped `[1,224,224,3]` (NHWC) or `[1,3,224,224]` (NCHW), and transposes
+the prepared tensors when the model uses NHWC. Check that the conversion
+preserves the model's `[-1, 1]` input preprocessing and produces float32 output.
+
+An example conversion invocation is:
+
+```powershell
+python -m pip install onnx2tf
+onnx2tf -i third_party\onnx\mobilenetv2.onnx -o build\mobilenetv2_converted
+```
+
+Inspect the converter output and select the validated float32 model; do not
+assume every exported variant has the right input layout or preprocessing.
+
+For the Samsung A2 Core build, provide a LiteRT/TensorFlow Lite C++ distribution
+in this layout:
+
+```text
+third_party/tflite/
+  include/tensorflow/lite/interpreter.h
+  include/tensorflow/lite/delegates/gpu/delegate.h
+  lib/armeabi-v7a/libtensorflowlite.so
+  lib/armeabi-v7a/libtensorflowlite_gpu_delegate.so
+  lib/armeabi-v7a/libc++_shared.so
+```
+
+Configure and build with the Android NDK:
+
+```powershell
+cmake -S . -B build-a2core -G Ninja `
+  -DCMAKE_TOOLCHAIN_FILE="$env:ANDROID_NDK_HOME\build\cmake\android.toolchain.cmake" `
+  -DANDROID_ABI=armeabi-v7a `
+  -DANDROID_PLATFORM=android-24 `
+  -DBUILD_FOR_SAMSUNG_A2_CORE=ON `
+  -DTFLITE_ROOT="$PWD\third_party\tflite"
+cmake --build build-a2core
+```
 
 ## Run the thermal-aware daemon
 
-Build the Android target with the NDK as usual, then copy the daemon, model, and
-input directory to the device:
+Copy the executable, converted model, LiteRT libraries, C++ runtime, and input
+tensors to the phone. The shared libraries must match the executable's
+`armeabi-v7a` ABI.
 
 ```powershell
 adb push build-a2core\thermal_daemon /data/local/tmp/thermal_daemon
-adb push third_party\onnx\lib\armeabi-v7a\libonnxruntime.so /data/local/tmp/libonnxruntime.so
-adb push third_party\onnx\lib\libc++_shared.so /data/local/tmp/libc++_shared.so
-adb push third_party\onnx\mobilenetv2.onnx /data/local/tmp/mobilenetv2.onnx
-adb push third_party\onnx\mobilenetv2.onnx.data /data/local/tmp/mobilenetv2.onnx.data
+adb push build\mobilenetv2.tflite /data/local/tmp/mobilenetv2.tflite
+adb push third_party\tflite\lib\armeabi-v7a\libtensorflowlite.so /data/local/tmp/
+adb push third_party\tflite\lib\armeabi-v7a\libtensorflowlite_gpu_delegate.so /data/local/tmp/
+adb push third_party\tflite\lib\armeabi-v7a\libc++_shared.so /data/local/tmp/
 adb push build\thermal_inputs /data/local/tmp/thermal_inputs
 adb shell chmod +x /data/local/tmp/thermal_daemon
 adb shell "cd /data/local/tmp; LD_LIBRARY_PATH=/data/local/tmp ./thermal_daemon"
 ```
 
-The shared libraries must match the executable's Android ABI. The commands
-above use `armeabi-v7a` for the Samsung A2 Core. `LD_LIBRARY_PATH` tells
-Android's dynamic linker to look in `/data/local/tmp` for ONNX Runtime and the
-shared C++ runtime.
+Normal startup requires creating and applying the TensorFlow Lite GPU delegate;
+it exits with an error instead of silently starting on CPU if that fails. The
+thermal policy switches to the CPU backend at configured thresholds and
+restores the GPU delegate after recovery. Results are written to
+`/data/local/tmp/thermal_results.csv`.
 
-The daemon runs for five minutes, cycles through the tensors, runs classification,
-and switches between NNAPI and CPU according to its thermal thresholds. It
-prints each prediction and the completed-cycle count, and updates
-`/data/local/tmp/thermal_results.csv` after each complete cycle. It stops at the
-five-minute deadline (after any inference already in progress finishes) or when
-you press Ctrl+C. Pull the latest report with:
+The GPU delegate may assign unsupported operators to CPU, so attaching the
+delegate does not guarantee every model operation ran on the GPU. Availability
+also depends on the phone's Android version, OpenGL ES support, GPU driver, and
+the converted model's operators. Check Android logs for delegate warnings and
+use vendor profiling tools to verify physical GPU execution.
 
-```powershell
-adb pull /data/local/tmp/thermal_results.csv .
-```
+## Backend-switch benchmark
 
-## Explicit backend-switch benchmark
-
-The five-minute limit applies to normal daemon mode. The benchmark instead runs
-three full passes (NNAPI, CPU, then NNAPI) and exits.
-
-To run all tensors on NNAPI, CPU, and NNAPI again:
+The benchmark runs three full passes (GPU delegate, CPU, then GPU delegate):
 
 ```powershell
 adb shell "cd /data/local/tmp; LD_LIBRARY_PATH=/data/local/tmp ./thermal_daemon --benchmark /data/local/tmp/thermal_inputs"
 adb pull /data/local/tmp/thermal_benchmark_results.csv .
 ```
 
-The benchmark fails if it cannot load NNAPI, a requested backend switch does not
-take effect, a tensor is malformed, or the execution profile contains no events
-for the expected provider. Profile JSON files are written under
-`/data/local/tmp/thermal_daemon_profile_*`.
-
-NNAPI profiling verifies NNAPI node execution, not a specific GPU. Depending on
-the Android version, device, model partitioning, and vendor driver, execution
-may use a GPU, NPU, another accelerator, or CPU fallback. Use vendor profiling
-tools if proving physical GPU utilization is required.
+It verifies that the requested backend transitions succeeded and that
+inference produced outputs. It does not prove that the GPU executed every
+operator; use the device's profiling tools for that.
